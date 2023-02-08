@@ -1,0 +1,41 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #496D8D;
+    color: white;
+    padding-left: 15px;
+}
+
+/*Opciones del menú (colores y tamaño)*/
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #51C9D6;
+    color: black;
+    padding-left: 15px;
+}
+
+/*El color de las opciones del menú*/
+#menu a:visited {
+    color: navy;
+}
+
+/*Cuando nos paramos encima de las opciones de menú cambian el color del fondo y de la letra*/
+#menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+#body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/BB.jpeg');
+    background-position: center;
+    font-family: sans-serif;
+}
